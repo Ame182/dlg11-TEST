@@ -1,0 +1,28 @@
+.navbar-brand {
+	background-image: url(images/logo.png) no-repeat center / auto 100% transparent;
+}
+
+
+.carousel-inner{
+	width: 100vw;
+	height: 80vh;
+
+}
+
+.carousel-caption h2{
+	margin-bottom: 45%;
+	color: blue; 
+}
+
+.row h1{
+	text-align: center;
+}
+
+footer .container {
+	background-color: #dddddd;
+	margin: 0px;
+}
+
+.row{
+	clear: both;
+}
