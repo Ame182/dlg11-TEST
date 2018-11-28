@@ -5,12 +5,12 @@
 
 .carousel-inner{
 	width: 100vw;
-	height: 80vh;
+	height: 60vh;
 
 }
 
 .carousel-caption h2{
-	margin-bottom: 45%;
+	margin-bottom: 40%;
 	color: blue; 
 }
 
@@ -25,4 +25,37 @@ footer .container {
 
 .row{
 	clear: both;
+}
+
+.thumbnail {
+	height: 100%;
+}
+
+/* Seccion Nosotros */
+
+.logoqs {
+	display: inline-block;
+	padding-top: 20px;
+}
+
+.jumbotron {
+	padding-left: 20px;
+}
+
+.jumbotron h1{
+	display: inline-block;
+	padding-top: 20px;
+}
+
+
+table{
+    table-layout: fixed;
+    width: 250px;
+    margin: 20px 0 40px 0;
+}
+
+th, td {
+    border: 1px solid orange;
+    width: 100px;
+    word-wrap: break-word;
 }
