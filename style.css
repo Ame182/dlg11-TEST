@@ -1,5 +1,8 @@
 .navbar-brand {
-	background-image: url(images/logo.png) no-repeat center / auto 100% transparent;
+	background: url(images/logo.png) no-repeat center / auto 100% transparent;
+	text-indent: -10000px;
+	width: 50px;
+	margin-left: 4em;
 }
 
 
@@ -14,13 +17,34 @@
 	color: blue; 
 }
 
+.dona {
+	background-color: orange;
+	color: white;
+	text-align: center;
+	font-size: 3em;
+
+}
+
 .row h1{
 	text-align: center;
 }
 
-footer .container {
-	background-color: #dddddd;
+.extra img{
+	width: 100vw;
+}
+
+footer{
+	background-color: 	#F5FFFA;
 	margin: 0px;
+	padding-top: 20px;
+}
+
+i {
+	font-size: 2em;
+}
+
+button{
+	margin-bottom: 15px;
 }
 
 .row{
@@ -39,14 +63,32 @@ footer .container {
 }
 
 .jumbotron {
+	height: 180px;
 	padding-left: 20px;
+	background-size: 100%;
+	background-position: middle;
+	background-repeat: no-repeat;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0PX;
 }
 
 .jumbotron h1{
 	display: inline-block;
 	padding-top: 20px;
+
 }
 
+.objetivo {
+	font-size: 1.3em;
+	font-family: Helvetica;
+}
+
+h4 {
+	text-align: center;
+	font-size: 2em;
+
+}
 
 table{
     table-layout: fixed;
@@ -58,4 +100,15 @@ th, td {
     border: 1px solid orange;
     width: 100px;
     word-wrap: break-word;
+}
+
+.row2 {
+	background-color: #dddddd;
+}
+
+
+/* Seccion Noticias */
+
+.thumbnail h3{
+	text-align: center;
 }
